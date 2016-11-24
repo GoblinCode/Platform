@@ -40,9 +40,9 @@
                 <h4 class="text-orchid font-thin">Getting Started</h4>
                 <ul class="toc-links">
                     <li><a v-on:click="load('index')">Home</a></li>
-                    <li><a href="/docs/installation">Installation</a></li>
+                    <li><a v-on:click="load('installation')">Installation</a></li>
                     <li><s>Upgrade Guide</s></li>
-                    <li><a href="/docs/roudmap">Road map</a></li>
+                    <li><a v-on:click="load('roudmap')">Road map</a></li>
 
                 </ul>
 
@@ -50,12 +50,12 @@
                 <h4 class="text-orchid font-thin">Service</h4>
                 <ul class="toc-links">
                     <li><s>Post</s></li>
-                    <li><a href="/docs/seo">SEO</a></li>
-                    <li><a href="/docs/settings">Settings</a></li>
-                    <li><a href="/docs/socket">Socket</a></li>
-                    <li><a href="/docs/widget">Widget</a></li>
-                    <li><a href="/docs/alert">Notice</a></li>
-                    <li><a href="/docs/active">Active Uri</a></li>
+                    <li><a v-on:click="load('seo')">SEO</a></li>
+                    <li><a v-on:click="load('settings')">Settings</a></li>
+                    <li><a v-on:click="load('socket')">Socket</a></li>
+                    <li><a v-on:click="load('widget')">Widget</a></li>
+                    <li><a v-on:click="load('alert')">Notice</a></li>
+                    <li><a v-on:click="load('active')">Active Uri</a></li>
                     <li><s>Trash</s></li>
                 </ul>
 
@@ -63,10 +63,10 @@
 
                 <h4 class="text-orchid font-thin">The Application</h4>
                 <ul class="toc-links">
-                    <li><a href="/docs/access">Access</a></li>
+                    <li><a v-on:click="load('access')">Access</a></li>
                     <li><s>Performance</s></li>
-                    <li><s><a href="/docs/logs">Logs</a></s></li>
-                    <li><a href="/docs/extends">Expansion</a></li>
+                    <li><s><a v-on:click="load('logs')">Logs</a></s></li>
+                    <li><a v-on:click="load('extends')">Expansion</a></li>
                 </ul>
 
                 <h4 class="text-orchid font-thin">Add Ons</h4>
@@ -76,16 +76,16 @@
                     <li><s>Types</s></li>
                     <li><s>Fields</s></li>
                     <li><s>Category</s></li>
-                    <li><a href="/docs/tags">Tagging</a></li>
+                    <li><a v-on:click="load('tags')">Tagging</a></li>
                     <li><s>Menu</s></li>
                     <li><s>Localization</s></li>
                 </ul>
 
                 <h4 class="text-orchid font-thin">Contributing</h4>
                 <ul class="toc-links">
-                    <li><a href="/docs/contributors">Guidelines</a></li>
-                    <li><a href="/docs/license">License</a></li>
-                    <li><a href="/docs/composition">Packages</a></li>
+                    <li><a v-on:click="load('contributors')">Guidelines</a></li>
+                    <li><a v-on:click="load('license')">License</a></li>
+                    <li><a v-on:click="load('composition')">Packages</a></li>
                 </ul>
 
             </div>
