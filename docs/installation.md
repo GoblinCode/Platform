@@ -1,4 +1,4 @@
-#Installation 
+# Installation 
 ----------
 
 Orchid based off [Laravel Framework](http://laravel.com), so before you put the Orchid, you must install [Laravel](http://laravel.com).
@@ -48,7 +48,6 @@ Change the following entry in the configuration file`config/auth.php`
 or inherit model App\User
 
 ```php
-<?php
 
 namespace App;
 

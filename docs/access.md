@@ -1,4 +1,4 @@
-#Differentiation of access rights
+# Differentiation of access rights
 ----------
 Role based access control - the development of selective access control policy,
 while permissions system subjects to objects are grouped with regard to their specific application,
@@ -8,7 +8,7 @@ Formation of roles is intended to define clear and understandable for users
 access control rules. Role-based access control allows for flexible,
 changing dynamically during operation of the rules of access control systems.
 
-##Middleware
+## Middleware
 
 Default Access Middleware Testing is carried out on the stage,
 so if you want to scan, add it (By default, it is already reserved, and you can use it without disease)
@@ -17,7 +17,7 @@ so if you want to scan, add it (By default, it is already reserved, and you can 
 'dashboard' => \Orchid\Access\Middleware\AccessMiddleware::class,
 ```
 
-##User
+## User
 
 The user has several options for managing roles
 
@@ -44,7 +44,7 @@ Auth:user()->addRole($role)
 
 
 
-##Roles
+## Roles
 
 Roles also have procedures for:
 

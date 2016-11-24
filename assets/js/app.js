@@ -1,20 +1,18 @@
 new Vue({
     el: '#app',
     data: {
-        page: ''
+        page : ''
     },
     computed: {
         compiledMarkdown: function () {
-            return marked(this.page, { sanitize: true })
+            return marked(this.page)
         }
     },
     methods: {
         load: function (docs) {
-            console.log('/docs/'+ docs);
-                this.$http.get('/docs/'+ docs).then(function (response) {
-                    this.$set('page', response.data);
-                });
-
+            this.$http.get('https://raw.githubusercontent.com/TheOrchid/Platform/gh-pages/docs/'+ docs + '.md').then(function (response) {
+                this.page = response.data;
+            });
         }
     },
 

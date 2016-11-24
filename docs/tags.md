@@ -1,4 +1,4 @@
-#Tag
+# Tag
 ----------
 
 Tag - a word or phrase that can unite a group of text, images etc on or
@@ -22,7 +22,7 @@ $ Post-> tag ([ 'foo', 'bar', 'baz']);
 
 
 
-###Removal:
+### Removal:
 
 Removes one or more tags in an array or object
 through a string delimiter separated entities.
@@ -43,7 +43,7 @@ $ Post-> untag ();
 
 
 
-###Setup:
+### Setup:
 
 This method is very similar to the method tag (), but it combines untag (),
 so that it automatically identifies the tag to add and remove.
@@ -66,7 +66,7 @@ $ Post-> setTags ([ 'foo', 'bar', 'baz'], 'slug');
 ```
 
 
-###Read:
+### Read:
 
 We have some techniques to help you get all the tags,
 attached to an object and do the opposite and get all objects

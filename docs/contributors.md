@@ -1,10 +1,10 @@
-#Contributor Guidelines
+# Contributor Guidelines
 ----------
 
 Я призываю всех внести свой вклад в проект Orchid. 
 Вы можете найти последнюю версию кода на GitHub по адресу <https://github.com/TheOrchid/Dashboard>.
 
-##Отслеживание проблем
+## Отслеживание проблем
 
 Вы можете найти нерешенные вопросы на GitHub Issues Tracker (https://github.com/TheOrchid/Dashboard/issues). 
 Если вы намерены работать по конкретному вопросу, оставьте комментарий на соответствующий задачу для информирования других участников проекта.

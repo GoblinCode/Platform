@@ -1,11 +1,11 @@
-#Settings
+# Settings
 ----------
 
 Settings - a repository of "key-value" is the simplest data storage,
 Use the key to access the value. Such storage is used to store settings,
 creation of specialized file systems, as caches for objects as well as systems,
 designed with an eye on scalability. Within Orchid configuration implemented using a model which uses mutation.
-###Using :
+### Using :
 	
 
 Noticed that you can not just put a simple variable types, but also in storage arrays.

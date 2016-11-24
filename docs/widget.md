@@ -1,4 +1,4 @@
-#Widget
+# Widget
 ----------
 
 Widget - an instance of Widget, or inherited from him.
@@ -11,7 +11,7 @@ Widgets are usually embedded in the representation to form a complex, but at the
 For example, a calendar widget can be used to render complex calendar interface.
 Widgets allow you to reuse the user interface code.
 
-###Creature :
+### Creature :
 	
 To create a new widget, you need to	
 ```php
@@ -22,7 +22,7 @@ The `app/Http/Widgets` folder to create a class of the widget template like a co
 
 Recommended siting widget files in a subdirectory views.
 ```php
-<?php namespace App\Http\Widgets;
+namespace App\Http\Widgets;
 
 use Orchid\Dashboard\Services\Widget\Widget;
 

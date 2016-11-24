@@ -1,10 +1,10 @@
-#Notice
+# Notice
 ----------
 Notice - this is a one-time message will be deleted the next time.
 Notifications are designed to inform about current events related to your website.
 
 Orchid has a convenient call and display notifications on the top of the disposable flash-data.
-###Using:
+### Using:
 
 ```php
 public function store()

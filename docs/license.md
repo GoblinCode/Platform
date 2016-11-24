@@ -1,7 +1,7 @@
-#Лицензия 
+# Лицензия 
 ----------
 
-###The MIT License (MIT)
+### The MIT License (MIT)
 
 Copyright (c)  <Черняев Александр>
 
