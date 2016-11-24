@@ -909,9 +909,19 @@ new Vue({
     data: {
         page : ''
     },
+    watch: {
+        page:  function () {
+            setTimeout(function() {
+                Prism.highlightAll();
+            }, 100);
+        }
+    },
+    mounted: function () {
+        this.load('index');
+    },
     computed: {
         compiledMarkdown: function () {
-            return marked(this.page)
+            return marked(this.page);
         }
     },
     methods: {

@@ -4,8 +4,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import "dist/prism/themes/prism.css";
-@import "dist/prism/themes/prism-okaidia.css";
+@import "../prism/themes/prism.css";
+@import "../prism/themes/prism-okaidia.css";
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -12515,6 +12515,14 @@ a.text-orchid:hover {
 }
 .container {
   max-width: 900px;
+}
+.block-show-enter-active,
+.block-show-leave-active {
+  transition: all 360ms linear;
+}
+.block-show-enter,
+.block-show-leave-active {
+  opacity: 0;
 }
 
 /*# sourceMappingURL=orchid.css.map */
