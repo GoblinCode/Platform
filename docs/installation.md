@@ -49,7 +49,6 @@ Change the following entry in the configuration file`config/auth.php`
 or inherit model App\User
 
 ```php
-
 namespace App;
 
 use Orchid\Foundation\Core\Models\User as UserOrchid;
