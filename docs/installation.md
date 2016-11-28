@@ -39,11 +39,11 @@ Orchid\Alert\AlertServiceProvider::class,
 Change the following entry in the configuration file`config/auth.php`
 
 ```php
-    'providers' => [
-        'users' => [
-            'driver' => 'eloquent',
-            'model' => Orchid\Dashboard\Models\User::class,
-        ],
+'providers' => [
+    'users' => [
+        'driver' => 'eloquent',
+        'model' => Orchid\Dashboard\Models\User::class,
+    ],
 ```
 
 or inherit model App\User
