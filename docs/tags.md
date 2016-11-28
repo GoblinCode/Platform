@@ -10,13 +10,13 @@ In this section we will show how you can manage your entities tags.
 
 ```php
 // Get the entity object
-$ Post = Post :: find (1);
+$post = Post::find (1);
 
 // Through a string
-$ Post-> tag ( 'foo, bar, baz');
+$post->tag('foo, bar, baz');
 
 // Through an array
-$ Post-> tag ([ 'foo', 'bar', 'baz']);
+$post-> tag ([ 'foo', 'bar', 'baz']);
 ```
 
 
@@ -29,16 +29,16 @@ through a string delimiter separated entities.
 
 ```php
 // Get the entity object
-$ Post = Post :: find (1);
+$post = post::find(1);
 
 // Through a string
-$ Post-> untag ( 'bar, baz');
+$post->untag('bar, baz');
 
 // Through an array
-$ Post-> untag ([ 'bar', 'baz']);
+$post->untag(['bar', 'baz']);
 
 // Remove all the tags
-$ Post-> untag ();
+$post->untag();
 ```
 
 
@@ -53,16 +53,16 @@ Tags which are to be added or removed.
 
 ```php
 // Get the entity object
-$ Post = Post :: find (1);
+$post = Post::find(1);
 
 // Through a string
-$ Post-> setTags ( 'foo, bar, baz');
+$post->setTags('foo, bar, baz');
 
 // Through an array
-$ Post-> setTags ([ 'foo', 'bar', 'baz']);
+$post->setTags(['foo', 'bar', 'baz']);
 
 // Using the `slug` column
-$ Post-> setTags ([ 'foo', 'bar', 'baz'], 'slug');
+$post->setTags(['foo', 'bar', 'baz'], 'slug');
 ```
 
 
