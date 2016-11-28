@@ -16,7 +16,7 @@ $post = Post::find (1);
 $post->tag('foo, bar, baz');
 
 // Through an array
-$post-> tag ([ 'foo', 'bar', 'baz']);
+$post->tag([ 'foo', 'bar', 'baz']);
 ```
 
 
