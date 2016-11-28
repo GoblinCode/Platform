@@ -30,6 +30,7 @@ Orchid\Alert\AlertServiceProvider::class,
 'Dashboard' =>  Orchid\Foundation\Facades\Dashboard::class,
 'Setting' =>  Orchid\Foundation\Facades\Setting::class,
 'Active' => Watson\Active\Facades\Active::class,
+'Image' => Intervention\Image\Facades\Image::class,
 ```
 
 
